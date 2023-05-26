@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <title>Portfolio de Miguel García</title>
+</head>
+
+  <!-- MENU ENCABEZADO -->
+ <div class="contenedor-header col-md-12">
+
+  <header class="navbar navbar-expand-lg">
+    <div class="logo">
+        <a href="#">Miguel García</a>
+    </div>
+  <button class="navbar-toggler nav-responsive " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fa-solid fa-bars"></i>
+  </button>
+
+
+  <div class="collapse navbar-collapse mr-5" id="navbarSupportedContent">
+     <nav id="nav float-sm-right">
+      <ul class="navbar-nav mr-5 " >
+        <li class=""><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+        <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+        <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+        <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+        <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+        <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+      </ul>
+    </nav>
+  </div>
+  </header>
+
+
+</div>
+
+  <!-- SECCION INICIO -->
+
+  <div class="card inicio" id="inicio">
+    <div class="contenido-banner container">
+    <div class="contenedor-img">
+        <img src="img/miguel.jpg" alt="">
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">MIGUEL GARCÍA</h5>
+      <p class="card-text">Técnico Programador de Computadoras - Java Developer Junior</p>
+      <div class="redes">
+        <a href="https://www.linkedin.com/in/miguel-garc%C3%ADa-814517204/"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/Txitxe36"><i class="fa-brands fa-github"></i></a>
+       
+    </div>
+    </div>
+  </div>
+  </div>
+
+
+   <!-- SECCION SOBRE MI -->
+   <section id="sobremi" class="sobremi">
+    <div class="contenido-seccion text-center">
+        <p><span>Hola, soy MIGUEL GARCIA</span> Recibido de Técnico programador de computadoras, apasionado por aprender constantemente, muy dedicado en cada labor que realizo y me siento con muchas ganas de progresar en el plano profesional tanto como en el plano personal.</p>
+        <p>En estos momentos me encuentro buscando mi primer oportunidad laboral en el rubro IT.</p>
+
+        <div class="fila row text-center">
+            <!--datos personales-->
+            <div class="col-md-6 col-sm-12">
+                <h3>Datos Personales</h3>
+                <ul>
+                    <li>
+                        <strong>Fecha de Nacimiento:</strong> 18-02-1987
+                    </li>
+                    <li>
+                        <strong>Teléfono:</strong> 1132062925
+                    </li>
+                    <li>
+                        <strong>Email:</strong> miguelgarcia_654@hotmail.com
+                    </li>
+                    <li>
+                        <strong>Dirección:</strong> Virrey del Pino, La Matanza
+                    </li>
+                    <li>
+                        <strong>Cargo:</strong><span>FREELANCE</span> 
+                    </li>
+                </ul>
+            </div>
+
+            <!--intereses-->
+            <div class="col-md-6 col-sm-12">
+                <h3>Intereses</h3>
+                <div class="contenido-intereses row">
+                    <div class="interes">
+                        <i class="fa-solid fa-gamepad"></i><span>JUEGOS</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-futbol"></i>
+                        <span>FÚTBOL</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-plane"></i>
+                        <span>VIAJAR</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-headphones"></i>
+                        <span>MÚSICA</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-tree"></i>
+                        <span>NATURALEZA</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-camera"></i>
+                        <span>FOTOS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button>
+            <a download="CV Miguel García" href="img/MiguelGarcíaCV.pdf">  Descargar CV <i class="fa-solid fa-download" ></i></a> 
+            <span class="overlay">
+            </span>
+        </button>
+    </div>
+ </section>
+
+  <!-- SECCION SKILLS -->
+  <section class="skills" id="skills">
+    <div class="contenido-seccion">
+        <h2>Skills</h2>
+        <div class="fila">
+            <!--technical skills-->
+            <div class="col">
+                <h3>Skills Técnicos</h3>
+                <div class="skill">
+                    <span>Javascript</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>75%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>HTML & CSS</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>89%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Java</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>80%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>PHP</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>65%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Spring Boot</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>55%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>MySQL</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>85%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+              <!--Professional Skills-->
+              <div class="col">
+                <h3>Skills Profesionales</h3>
+                <div class="skill">
+                    <span>Comunicación</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>75%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Trabajo en Equipo</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>89%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Creatividad</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>75%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Dedicación</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>95%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Reponsabilidad</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>95%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Ganas de aprender</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>100%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+  </section>
+
+   <!-- SECCION CURRICULUM -->
+   <section id="curriculum" class="curriculum">
+    <div class="contenido-seccion">
+        <h2>Curriculum</h2>
+        <div class="fila row">
+            <div class="col-md-6 izquierda">
+                <h3 class="text-center">EDUCACIÓN</h3>
+                <div class="item izq">
+                    <h4>Tecnicatura en Gestión Universitaria</h4>
+                    <span class="casa">Universidad Nacional de Lomas de Zamora</span>
+                    <span class="fecha">2017-2019</span>
+                    <p>
+                        <li>Análisis de las Instituciones Universitarias</li>
+                        <li>Técnicas de recolección y procesamiento de la información</li>
+                        <li>Política y Legislación del Sistema de Educación Superior  Universitario</li>
+                        <li>Proyección y Evaluación de Proyectos</li>
+                        <li>Planeamiento estratégico</li>
+                        <li>Gestión y administración en el sistema Universitario</li>
+                        <li>Evaluación y acreditación universitaria</li>
+                        <li>Historia de la universidad</li>
+                        <li>Sistemas de información y gestión universitaria.</li>
+                        </p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+
+                <div class="item izq">
+                    <h4>Tecnicatura en Programación de Computadoras</h4>
+                    <span class="casa">Universidad Nacional de Lomas de Zamora</span>
+                    <span class="fecha">2020-2022</span>
+                    <p>
+                        <li> Realizar programas o componentes de sistemas de computación</li>
+                        <li>Interpretar especificaciones de diseño</li>
+                        <li>Documentar los productos realizados</li>
+                        <li>Verificar los componentes programados</li>
+                        <li>Buscar causas de malfuncionamiento y corregir los programas o   adaptarlos a
+                            cambios en las especificaciones desarrollando las actividades descriptas en el
+                            perfil profesional.</li>
+                         <b>Lenguajes vistos:</b>
+                         Java, PHP, C#, .Net y Python.
+                        </p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+
+                <div class="item izq">
+                    <h4>Curso de Desarrollo de API´s en Java con Spring Boot</h4>
+                    <span class="casa">TodoCode</span>
+                    <span class="fecha">2022</span>
+                    <p>
+                    <li>Desarrollo web</li>
+                    <li>Arquitectura cliente-servidor</li>
+                    <li>Protocolo HTTP</li>
+                    <li>Maven</li>
+                    <li>Patrón MVC</li>
+                    <li>CRUD con JPA + Hibernate</li>
+                    <li>API Rest</li>
+                </p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+
+                <div class="item izq">
+                    <h4>Curso de Desarrollo Web I y II</h4>
+                    <span class="casa">Gobierno de la Ciudad de Buenos Aires</span>
+                    <span class="fecha">2021</span>
+                    <p>
+                    <li>Diseño de página web</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Bootstrap</li>
+                    <li>JavaScript</li>
+                    
+                </p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="col-md-6 derecha">
+                <h3 class="text-center">EXPERIENCIA LABORAL</h3>
+
+                <div class="item der">
+                    <h4>Barberia Alura</h4>
+                    <span class="casa">Trabajo Practico de curso de Alura Latam</span>
+                    <span class="fecha">2023</span>
+                    <p>Página web estatica realizada JavaScript, HTML y CSS</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+
+                <div class="item der">
+                    <h4>AdoptApp</h4>
+                    <span class="casa">Autodidacta</span>
+                    <span class="fecha">2023</span>
+                    <p>Aplicación web para adopción de mascotas realizada con Java, Spring Boot, Spring Security, MySQL y thymeleaf.</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+
+                <div class="item der">
+                    <h4>CRUD de clientes</h4>
+                    <span class="casa">Autodidacta</span>
+                    <span class="fecha">2023</span>
+                    <p>Aplicación web de un CRUD de clientes realizado con Java, Spring Boot, Spring Security, MySQL y Thymeleaf.</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+
+                <div class="item der">
+                    <h4>Mony_Ali_Nails</h4>
+                    <span class="casa">Trabajo Práctico final de la Tecnicatura</span>
+                    <span class="fecha">2022</span>
+                    <p>Aplicación web y página web de un salón de belleza realizado con PHP, MySQL, JavaScript, HTML, CSS y Bootstrap</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+
+                <div class="item der">
+                    <h4>Mayra Nails</h4>
+                    <span class="casa">Autodidacta</span>
+                    <span class="fecha">2021</span>
+                    <p>Página web estatica de un salón de manicura realizado con Javascript, HTML, CSS y Bootstrap</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+
+                <div class="item der">
+                    <h4>Apulz Nodocentes</h4>
+                    <span class="casa">Autodidacta</span>
+                    <span class="fecha">2021</span>
+                    <p>Página web estatica realizada JavaScript, HTML, CSS y Bootstrap</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+  </section>
+
+   <!-- SECCION PORTFOLIO -->
+   <section id="portfolio" class="portfolio">
+    <div class="contenido-seccion">
+        <h2>PORTFOLIO</h2>
+        <div class="galeria row">
+            <div class="proyecto col-md-12">
+                <img src="img/springMascotas2.gif" class="" alt="">
+                <div class="overlay">
+                    <h3>AdoptAPP</h3>
+                    <p>Realizada con Java, Spring Boot, Spring Security, MySQL y Thymeleaf</p>
+                </div>
+            </div>
+
+            <div class="proyecto col-md-6">
+                <img src="img/Mony_ali_nails_video.gif" alt="">
+                <div class="overlay">
+                    <a href="https://mony-ali-nails.netlify.app/" target="_blank" style="text-decoration: none;"><h3>Mony Ali Nails</h3></a>
+                    <p>Pagina Web hecha con HTML, CSS Y Javascript</p>
+                </div>
+            </div>
+            <div class="proyecto col-md-4">
+                <img src="img/Mayra_Nails_video.gif" alt="">
+                <div class="overlay">
+                    <a href="https://mayranails.netlify.app" target="_blank" style="text-decoration: none;"><h3>Mayra Nails</h3></a>
+                    <p>Pagina Web hecha con HTML, CSS Y Javascript</p>
+                </div>
+            </div>
+            <div class="proyecto col-md-4">
+              <img src="img/Apulz_video.gif" alt=""> 
+                <div class="overlay">
+                    <a href="https://apulz.netlify.app" target="_blank" style="text-decoration: none;"><h3>Apulz, Nodocentes</h3></a>
+                    <p>Pagina Web hecha con HTML, CSS Y Javascript</p>
+                    
+                </div>
+            </div>
+            <div class="proyecto col-md-4">
+                <img src="img/CRUD_clientes_video.gif" alt="">
+                <div class="overlay">
+                    <h3>CRUD de Clientes</h3>
+                    <p>Realizada con Java, Spring Boot, Spring Security, MySQL y Thymeleaf</p>
+                </div>
+            </div>
+            <div class="proyecto col-md-4">
+                <img src="img/barberia-alura.gif" alt="">
+                <div class="overlay">
+                    <a href="https://barberia-aluralatam.netlify.app/" target="_blank" style="text-decoration: none;"><h3>Barbería Alura</h3></a>
+                    <p>Realizada con JavaScript, HTML y CSS</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+   </section>
+
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+            
+        <div class="contenido-seccion">
+
+           
+            <h2>CONTACTO</h2>
+           
+
+                <div class="fila row bg-dark text-center col-md-12">
+                    <div class="card-body ">
+                        <div class="info text-center">
+                            <div class=" text-center">
+                            
+                                <div class="col-sm">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                  <h4 > Virrey del Pino, La Matanza</h4> 
+                                </div>
+                                <div class="col-sm">
+                                    <i class="fa-solid fa-mobile-screen"></i>
+                                    <h4>1132062925</h4>
+                                </div>
+                                <div class="col-sm">
+                                    <i class="fa-solid fa-envelope"></i>
+                                   <h4 class="email2">miguelgarcia_654@hotmail.com</h4> 
+                                </div>
+                           
+                           </div>
+                        </div>
+                    </div>
+                  
+                <!--formulario-->
+          <!--     <div class="col-md-6">
+                    <input type="text" placeholder="Tú nombre" required>
+                    <input type="text" placeholder="Número telefónico" required>
+                    <input type="text" placeholder="Dirección de correo" required>
+                    <input type="text" placeholder="Asunto" required>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+                    <button>
+                        Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+
+                    
+                    </button>
+                </div>-->
+                <!--mapa-->
+               <!-- <div class="col-md-6">
+                    <img src="img/mapa.jpg" alt="">
+                </div>-->
+               
+                
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/miguel-garcía-tx36"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/Txitxe36"><i class="fa-brands fa-github"></i></a>
+            <p>Portfolio creado por Miguel García</p>
+        </div>
+       
+       
+    </footer>
+
+
+
+
+
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>
